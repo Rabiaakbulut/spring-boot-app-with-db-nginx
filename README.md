@@ -31,6 +31,8 @@ Creating prod-nginx                                       ... done
 ```
 The app will start running at http://localhost:7070
 
+*NOTE*: I have already created 2 Docker container images. One with NGINX configurations and the other with the Spring Boot Application. They are uploaded to https://hub.docker.com/ and are public.
+
 ## Exploring and Testing the APIs
 
 * The Application will define the following CRUD APIs and you can test them using postman or any other REST API clients
