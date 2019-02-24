@@ -2,7 +2,7 @@ version: '3'
 services:
   nginx: 
     image: rajithdocker/nginx:3.0
-    container_name: prod_nginx
+    container_name: prod-nginx
     restart: always
     ports:
       - 7070:7070
