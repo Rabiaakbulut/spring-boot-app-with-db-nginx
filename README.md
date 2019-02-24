@@ -1,4 +1,4 @@
-# Docker Compose with Spring Boot CRUD container, MySQL, NGINX as Reverse Proxy
+# Docker Compose with Spring Boot CRUD API container, MySQL, NGINX as Reverse Proxy
 
 ![chart1](https://user-images.githubusercontent.com/47069895/53302529-e0b7de00-3856-11e9-9ee0-04e2f5e7a111.jpg)
 
