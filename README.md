@@ -31,7 +31,7 @@ Creating prod-nginx                                       ... done
 ```
 The app will start running at http://localhost:7070
 
-*NOTE*: I have already created 2 Docker container images. One with NGINX configurations and the other with the Spring Boot Application. They are uploaded to https://hub.docker.com/ and are public.
+*NOTE*: I have already created 2 Docker container images. One with NGINX configurations and the other with the Spring Boot Application. They are uploaded to https://hub.docker.com/ and are public. How to build them can be found at the end of Readme file
 
 ```
 rajithdocker/nginx:3.0
@@ -73,3 +73,12 @@ DELETE /api/notes/{noteId}
 
 #### Deleting a Note using DELETE /api/notes/{noteId} API
 ![delete](https://user-images.githubusercontent.com/47069895/53302027-c9c2bd00-3851-11e9-9384-b729a2d4b744.jpg)
+
+
+### Additional Notes:
+How to build the NGINX and Application containers:
+     * Nginx Container Image
+       Spin up a container using nginx image at Docker Hub and replace the /etc/nginx/conf.d/default.conf with the default.conf file provided in the project and create an image.
+
+     * Spring Boot Application Container Image
+       Use the Dockerfile provided in the project to create the application container image
