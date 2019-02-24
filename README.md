@@ -1,6 +1,6 @@
 # Docker Compose with Spring Boot CRUD container, MySQL, NGINX as Reverse Proxy
 
-![chart](https://www.lucidchart.com/documents/view/d5257e5c-c60b-4ec6-b6be-ce29f3f94162/0)
+![chart1](https://user-images.githubusercontent.com/47069895/53302529-e0b7de00-3856-11e9-9ee0-04e2f5e7a111.jpg)
 
 ## What you will build
 * You will build a simple Spring Boot CRUD API for Notes-Taking Application with a backend MySQL DB and NGINX setup as a reverse proxy server running inside Docker containers.
