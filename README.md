@@ -10,7 +10,7 @@ These instructions will give you a copy of the project up and running on your lo
 
 ## Prerequisites
 * Docker CE - Please read [Install Docker Desktop for Windows](https://docs.docker.com/docker-for-windows/install/)
-* Rest Client - Please read []()
+* REST API Client - Please read [Download Postman for Windows](https://www.getpostman.com/downloads/)
 
 ## Running the Application 
 
@@ -33,4 +33,20 @@ The app will start running at http://localhost:7070
 
 ## Exploring and Testing the APIs
 
-* The Application will dfine the following CRUD APIs
+* The Application will define the following CRUD APIs and you can test them using postman or any other REST API clients
+
+ ```
+Create a new _Note_ using POST
+POST /api/notes
+
+Retrieving all _Notes_ using GET 
+GET /api/notes
+
+Retrieving a single _Note_ using GET
+GET /api/notes/{noteId}
+
+Updating a _Note_ using PUT
+PUT /api/notes/{noteId}
+
+Deleting a _Note_ using DELETE
+DELETE /api/notes/{noteId}
