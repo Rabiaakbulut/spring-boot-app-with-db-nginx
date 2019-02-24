@@ -36,17 +36,17 @@ The app will start running at http://localhost:7070
 * The Application will define the following CRUD APIs and you can test them using postman or any other REST API clients
 
  ```
-Create a new _Note_ using POST
+Create a new *Note* using POST
 POST /api/notes
 
-Retrieving all _Notes_ using GET 
+Retrieving all *Notes* using GET 
 GET /api/notes
 
-Retrieving a single _Note_ using GET
+Retrieving a single *Note* using GET
 GET /api/notes/{noteId}
 
-Updating a _Note_ using PUT
+Updating a *Note* using PUT
 PUT /api/notes/{noteId}
 
-Deleting a _Note_ using DELETE
+Deleting a *Note* using DELETE
 DELETE /api/notes/{noteId}
