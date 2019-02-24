@@ -52,17 +52,17 @@ Deleting a Note using DELETE
 DELETE /api/notes/{noteId}
 ```
 
-### Creating a new Note using POST /api/notes API
+#### Creating a new Note using POST /api/notes API
 ![post](https://user-images.githubusercontent.com/47069895/53302022-b9124700-3851-11e9-8163-530ad8198760.jpg)
 
-### Retrieving all Notes using GET /api/notes API
+#### Retrieving all Notes using GET /api/notes API
 ![get](https://user-images.githubusercontent.com/47069895/53302017-adbf1b80-3851-11e9-9843-64866e2ecef6.jpg)
 
-### Retrieving a single Note using GET /api/notes/{noteId} API
+#### Retrieving a single Note using GET /api/notes/{noteId} API
 ![get1](https://user-images.githubusercontent.com/47069895/53302021-b4e62980-3851-11e9-9bd3-600137f4f374.jpg)
 
-### Updating a Note using PUT /api/notes/{noteId} API
+#### Updating a Note using PUT /api/notes/{noteId} API
 ![put](https://user-images.githubusercontent.com/47069895/53302026-c3344580-3851-11e9-86a4-37b3755c4870.jpg)
 
-### Deleting a Note using DELETE /api/notes/{noteId} API
+#### Deleting a Note using DELETE /api/notes/{noteId} API
 ![delete](https://user-images.githubusercontent.com/47069895/53302027-c9c2bd00-3851-11e9-9384-b729a2d4b744.jpg)
