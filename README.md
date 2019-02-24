@@ -76,7 +76,7 @@ DELETE /api/notes/{noteId}
 
 
 ### Additional Notes:
-How to build the NGINX and Application containers:
+How to build the NGINX and Application container images:
 
      * Nginx Container Image
        Spin up a container using nginx image at Docker Hub and replace the /etc/nginx/conf.d/default.conf with the default.conf file provided in the project and create an image.
