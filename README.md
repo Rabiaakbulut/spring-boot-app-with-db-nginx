@@ -33,6 +33,7 @@ git clone https://github.com/Rabiaakbulut/spring-boot-app-with-db-nginx.git
 
 * GET /api/notes , /api/notes/{noteId}
 ![get](/img/get.png)
+<img src="drawing.jpg" alt="drawing" style="width:200px;"/>
 
 * PUT /api/notes/{noteId}
 ![put](/img/put.png)
