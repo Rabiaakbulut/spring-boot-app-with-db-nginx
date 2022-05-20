@@ -21,16 +21,12 @@ git clone https://github.com/Rabiaakbulut/spring-boot-app-with-db-nginx.git
 > docker-compose up -d
 ```
 
-* Uygulamayı görme
-
-```
-http://localhost:7070
-```
+* Uygulamayı görmek için: http://localhost:7070
 
 ![localhost](/img/localhost.png)
 
 
-## Postman CRUD Uygulaması
+## Postman CRUD Testi
 
 * POST /api/notes
 ```
