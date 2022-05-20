@@ -29,21 +29,13 @@ git clone https://github.com/Rabiaakbulut/spring-boot-app-with-db-nginx.git
 ## Postman CRUD Testi
 
 * POST /api/notes
-```
 ![post](/img/post.png)
-```
 
 * GET /api/notes , /api/notes/{noteId}
-```
 ![get](/img/get.png)
-```
 
 * PUT /api/notes/{noteId}
-```
 ![put](/img/put.png)
-```
 
 * DELETE /api/notes/{noteId}
-```
 ![delete](/img/delete.png)
-```
